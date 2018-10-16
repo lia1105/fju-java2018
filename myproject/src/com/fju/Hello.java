@@ -21,7 +21,15 @@ public class Hello {
 		 System.out.println(weight);
 		 double height = 1.6;
 		 System.out.println(height);*/
-
+		
+		Student stu = new Student();
+		stu.name = "Hank";
+		stu.english = 70;
+		stu.math = 90;
+		stu.print();
+		
+		
+		
 	}
 
 }
