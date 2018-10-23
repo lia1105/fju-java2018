@@ -11,7 +11,7 @@ public class RangeTester {
 		String line = scanner.nextLine();
 		
 		System.out.println("*"+line+"*");
-		boolean number = line.equals(">=-3 && <=5");
+		boolean number = line.equals(">=-3") && line.equals("<=5");
 		System.out.println(number);
 		
 		
