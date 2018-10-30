@@ -1,5 +1,6 @@
 package com.fju;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello {
@@ -7,7 +8,22 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		while() {
+			Random random = new Random();
+			int secret = random.nextInt(100)+1;
+			System.out.println(secret);
+		}
+		
+		
+		
+		System.out.println("Please input temperature");
 		Scanner scanner = new Scanner(System.in);
+		double c = scanner.nextDouble();
+		double f = (c * (9.0/5)+32);
+		System.out.printf("%.1f C = %.1f F ", c ,f);
+		
+		
+		/*Scanner scanner = new Scanner(System.in);
 		System.out.println("Your name");
 		String s = scanner.nextLine();
 		System.out.println(s);
@@ -20,7 +36,7 @@ public class Hello {
 		p.height = 1.6f;
 
 		System.out.println(p.bmi());
-		p.hello();
+		p.hello();*/
 		
 		// Person hank = new Person();
 
@@ -36,6 +52,8 @@ public class Hello {
 		stu.english = 70;
 		stu.math = 90;
 		stu.print();
+		
+		
 		
 		
 		
