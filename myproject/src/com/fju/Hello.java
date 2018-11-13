@@ -8,7 +8,13 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		while() {
+		
+		for(int i=1; i<=5 ; i=i+1){
+			System.out.println(i);
+		}
+		
+		
+		/*while() {
 			Random random = new Random();
 			int secret = random.nextInt(100)+1;
 			System.out.println(secret);
