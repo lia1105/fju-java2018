@@ -53,10 +53,7 @@ public class Hello {
 		 double height = 1.6;
 		 System.out.println(height);*/
 		
-		Student stu = new Student();
-		stu.name = "Hank";
-		stu.english = 70;
-		stu.math = 90;
+		Student stu = new Student("Hank", 80, 77);
 		stu.print();
 		
 		
